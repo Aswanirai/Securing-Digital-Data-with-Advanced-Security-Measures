@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureGuard - Advanced Digital Security</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="shield-icon"><i class="fas fa-shield-alt"></i></span>
+                <h1>SecureGuard</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Solutions</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Secure Your Digital World</h1>
+                <h2>Advanced Security Solutions for Modern Threats</h2>
+                <p>Protecting your valuable data with cutting-edge encryption, threat monitoring, and secure infrastructure.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn btn-primary">Our Solutions</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="security-graphic">
+                    <div class="lock-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="security-circles">
+                        <span class="circle c1"></span>
+                        <span class="circle c2"></span>
+                        <span class="circle c3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Security Solutions</h2>
+                <p>Comprehensive protection for your operating systems and digital assets</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Access Control</h3>
+                    <p>Multi-factor authentication and role-based access control systems to ensure only authorized users access sensitive data.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Data Encryption</h3>
+                    <p>End-to-end encryption for data at rest and in transit using AES-256 and other military-grade protocols.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Threat Detection</h3>
+                    <p>Real-time monitoring and AI-powered anomaly detection to identify and mitigate potential security threats.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Secure Infrastructure</h3>
+                    <p>Hardened operating systems with regular security patches and updates to protect against vulnerabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Security Features</h2>
+                <p>Advanced tools to protect your digital presence</p>
+            </div>
+            <div class="features-container">
+                <div class="feature-tabs">
+                    <button class="tab-btn active" data-id="encryption">Encryption</button>
+                    <button class="tab-btn" data-id="firewall">Firewall Protection</button>
+                    <button class="tab-btn" data-id="monitoring">Threat Monitoring</button>
+                    <button class="tab-btn" data-id="recovery">Disaster Recovery</button>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-info active" id="encryption">
+                        <div class="feature-details">
+                            <h3>Advanced Encryption</h3>
+                            <p>Our military-grade encryption protocols secure your data both at rest and in transit. We implement AES-256 bit encryption, secure key management, and end-to-end protection for all communications.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> AES-256 encryption standards</li>
+                                <li><i class="fas fa-check"></i> Secure key management</li>
+                                <li><i class="fas fa-check"></i> End-to-end data protection</li>
+                                <li><i class="fas fa-check"></i> Zero-knowledge architecture</li>
+                            </ul>
+                        </div>
+                        <div class="feature-image">
+                            <div class="encryption-graphic">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-info" id="firewall">
+                        <div class="feature-details">
+                            <h3>Next-Gen Firewall Protection</h3>
+                            <p>Our intelligent firewall systems constantly adapt to emerging threats, providing comprehensive protection against intrusions, malware, and unauthorized access attempts.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Adaptive threat intelligence</li>
+                                <li><i class="fas fa-check"></i> Deep packet inspection</li>
+                                <li><i class="fas fa-check"></i> Application-level filtering</li>
+                                <li><i class="fas fa-check"></i> Network traffic analysis</li>
+                            </ul>
+                        </div>
+                        <div class="feature-image">
+                            <div class="firewall-graphic">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-info" id="monitoring">
+                        <div class="feature-details">
+                            <h3>24/7 Threat Monitoring</h3>
+                            <p>Our security operations center provides round-the-clock surveillance, using AI and machine learning to detect anomalies and potential security breaches before they impact your systems.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Real-time alert system</li>
+                                <li><i class="fas fa-check"></i> AI-powered anomaly detection</li>
+                                <li><i class="fas fa-check"></i> Behavior analysis</li>
+                                <li><i class="fas fa-check"></i> Incident response protocols</li>
+                            </ul>
+                        </div>
+                        <div class="feature-image">
+                            <div class="monitoring-graphic">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-info" id="recovery">
+                        <div class="feature-details">
+                            <h3>Disaster Recovery</h3>
+                            <p>Our comprehensive backup and recovery solutions ensure business continuity even in worst-case scenarios, with minimal data loss and rapid system restoration.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Automated backup systems</li>
+                                <li><i class="fas fa-check"></i> Rapid recovery protocols</li>
+                                <li><i class="fas fa-check"></i> Secure off-site storage</li>
+                                <li><i class="fas fa-check"></i> Regular recovery testing</li>
+                            </ul>
+                        </div>
+                        <div class="feature-image">
+                            <div class="recovery-graphic">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose SecureGuard</h2>
+                <p>Leading the industry in digital security innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Trusted by Industry Leaders</h3>
+                    <p>For over a decade, we've been at the forefront of cybersecurity, protecting sensitive data for organizations of all sizes. Our team of security experts brings unparalleled expertise in operating system security, network protection, and data encryption.</p>
+                    <div class="stats-container">
+                        <div class="stat-box">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">Uptime</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Support</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Experts</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="security-dashboard">
+                        <div class="dashboard-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="dashboard-row"></div>
+                            <div class="dashboard-row"></div>
+                            <div class="dashboard-row"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Success stories from organizations we've helped secure</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <p>"SecureGuard transformed our approach to data security. Their OS-level protection has been invaluable in preventing breaches and maintaining customer trust."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CTO, Global Finance Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"After implementing SecureGuard's solutions, we've seen a 95% reduction in security incidents. Their team's expertise is unmatched in the industry."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chang</h4>
+                            <p>Security Director, TechSystems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The peace of mind we've gained from SecureGuard's comprehensive security suite has been worth every penny. Their support team is responsive and knowledgeable."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Elena Rodriguez</h4>
+                            <p>CEO, Healthcare Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get Started Today</h2>
+                <p>Speak with a security expert about your specific needs</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form id="securityForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" placeholder="Your company">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your security needs" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Request Consultation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>123 Security Drive<br>Cyber City, CS 10101</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>+1 (555) 123-4567<br>Mon-Fri, 9am-5pm</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>info@secureguard.com<br>support@secureguard.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="shield-icon"><i class="fas fa-shield-alt"></i></span>
+                    <h2>SecureGuard</h2>
+                    <p>Advanced digital security solutions</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#services">Data Protection</a></li>
+                            <li><a href="#services">Network Security</a></li>
+                            <li><a href="#services">Threat Analysis</a></li>
+                            <li><a href="#services">Compliance</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SecureGuard. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>                                                                                                                                                                                                                                                                                             
